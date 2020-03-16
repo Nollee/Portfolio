@@ -1,0 +1,177 @@
+@import "_rules";
+/* =========================== PROFILE ================================= */
+.profile-pic{
+    border: 5px solid white;
+    border-radius: 70px;
+    height: auto;
+    width: 28%;
+    background-color: $darkest-blue;
+}
+
+.profile-tab{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $light-blue;
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 70px;
+    width: 70%;
+    height: 40%;
+    z-index: 101;
+    p{
+        color: white;
+        font-weight: 700;
+        font-size: 15px;
+        text-align: center;
+        margin-right: -20px;
+    }
+}
+
+.profile-container{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 3%;
+    width: 490px;
+    height: 220px;
+    z-index: 100;
+    overflow: visible !important;
+
+}
+
+.profile-right{
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 45% 100%);
+    background-color: white;
+    width: 40%;
+    height: 100%;
+}
+
+.profile-btn{
+background-color: rgba(59, 125, 170, 0.6);
+width: 45px;
+height: 45px;
+margin-top: 20%;
+margin-left: 45%;
+border-radius: 50%;
+position: relative;
+}
+
+.profile-btn:hover{
+    cursor: pointer;
+}
+
+.plus-1, .plus-2{
+    background-color: #3B7DAA;
+    width: 66%;
+    height: 6px;
+    position: absolute;
+    @extend %center;    
+    border-radius: 5px;
+}
+
+.plus-1{
+    transform: rotate(90deg);
+    transition: 0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+
+}
+
+.plus-1.pop{
+    transform: rotate(0deg);
+    transition: 0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+}
+
+.profile-info{
+    width: 55%;
+    height: 100%;
+    position: absolute;
+    right: 8%;
+    top: 0;
+}
+
+.info-circle{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    @extend %center;
+    border-radius: 50%;
+    background-color: $text-blue;
+    opacity: 70%;
+    z-index: 50;
+    transition: 0.3s ease-in;
+    margin-left: 15%;
+    
+
+}
+
+.info-circle.pop{
+    width: 130px;
+    height: 130px;
+    transition: 0.4s ease-in;
+
+
+}
+
+.info-icon{
+    z-index: 50;
+    position: absolute;
+    @extend %center;
+    width: 40px;
+    height: 40px;
+    background-color: $text-blue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+
+
+}
+
+.fb.pop{
+    transform: translate(65px, -75px);
+        transition: 0.4s ease-in;
+        -webkit-transition: 0.4s ease-in;
+        -moz-transition: 0.4s ease-in;
+        -o-transition: 0.4s ease-in;
+        transition-delay: 0.3s;
+    
+    }
+
+.li.pop{
+    transform: translate(105px, -32.5px);
+    transition: 0.4s ease-in;
+    -webkit-transition: 0.4s ease-in;
+    -moz-transition: 0.4s ease-in;
+    -o-transition: 0.4s ease-in;
+    transition-delay: 0.4s;
+    
+        }
+
+.git.pop{
+    transform: translate(105px, 32.5px);
+    transition: 0.4s ease-in;
+    -webkit-transition: 0.4s ease-in;
+    -moz-transition: 0.4s ease-in;
+    -o-transition: 0.4s ease-in;
+    transition-delay: 0.5s;
+    
+        }
+
+.box.pop{
+transform: translate(65px, 75px);
+    transition: 0.4s ease-in;
+    -webkit-transition: 0.4s ease-in;
+    -moz-transition: 0.4s ease-in;
+    -o-transition: 0.4s ease-in;
+    transition-delay: 0.6s;
+
+}

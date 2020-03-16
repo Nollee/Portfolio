@@ -1,0 +1,95 @@
+
+/* =================================== IMPORTS ================================= */
+
+@import "_profile";
+
+@import "_burger";
+
+@import "_rules";
+
+@import "_home";
+
+@import "_product";
+
+/* ======================== GENERAL ============================== */
+*{
+    font-family: droid-sans, sans-serif;
+    margin: 0;
+	padding: 0;
+    border: 0;
+    overflow: hidden;
+}
+
+
+
+body{
+    background-color: $dark-blue;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+// ===================== SECTION RULES ======================================
+section{
+    margin: auto;
+    max-width: 1100px;
+    display: flex;
+}
+
+.section-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    padding-left: 5%;
+    padding-top: 22vh;
+    height: 78vh;
+}
+
+h1{
+    color: white;
+    font-size: 3.5em;
+
+}
+
+.typed-cursor{
+    font-size: 3.5em;
+    color: white;
+    display: flex;
+    text-align: start;
+}
+
+.typed-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 20vh;
+    width: 100%;
+}
+
+.section-right{
+    width: 65%;
+    padding-left: 5%;
+    padding-top: 22vh;
+    height: 78vh;
+    h2{
+        text-align: center;
+        color: white;
+        font-size: 2em;
+    }
+    h3{
+        color: $text-blue;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    *{
+        overflow: visible;
+    }
+}
+
