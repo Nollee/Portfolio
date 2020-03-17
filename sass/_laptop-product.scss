@@ -25,6 +25,7 @@
         text-align: center;
         img{
             height: 25%;
+            object-fit: cover;
 
         }
         h3{
@@ -53,12 +54,12 @@
 /* The laptop with borders */
 .laptop {
     position: relative;
-    width: 60%;
-    height: 100%;
+    width: 430px;
+    height: 300px;
     border-radius: 6px;
     border-style: solid;
     border-color: white;
-    border-width: 20px 20px 40px;
+    border-width: 10px 10px 30px;
     background-color: white;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -74,20 +75,44 @@
   /* The keyboard of the laptop */
 .keyboard {
     position: absolute;
-    width: 70%;
+    width: 460px;
     margin: auto;
     left: 0;
     right: 0;
-    height: 5%;
+    height: 18px;
     background: white;
     border-radius: 6px;
     z-index: 3;
     border-top: 1px solid black;
   }
 
+  .keyboard-line{
+      position: absolute;
+      background-color: grey;
+      height: 6px;
+      width: 15%;
+      bottom: 12px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      z-index: 3;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+  }
+
   .link-btn-wrapper-laptop{
       margin: auto;
   }
+
+  @media only screen and (min-height: 850px) {
+    .right-top{
+        margin-top: 25%;
+    }
+
+}
+
+
+
   
 
   
