@@ -1,11 +1,11 @@
 @import "_rules";
 
-#h1-barhunt, #h1-webspil{
+#h1-barhunt, #h1-webspil, #h1-repenso{
     margin-left: 8%;
 }
 
 .right-left{
-    height: 90%;
+    height: 74vh;
     width: 40%;
     display: flex;
     align-items: center;
@@ -13,11 +13,17 @@
 
 .right-right{
     width: 50%;
-    height: 80%;
+    height: 74vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    h3{
+        color: $text-blue;
+    }
+    p{
+        color: white;
+    }
 }
 .product-container{
     display: flex;
@@ -32,11 +38,14 @@
 /* The device with borders */
 .product-mobile {
     position: relative;
-    height: 470px;
-    border: 6px white solid;
-    border-top-width: 50px;
-    border-bottom-width: 50px;
-    border-radius: 36px;
+    height: 87%;
+    border: 4px white solid;
+    border-top-width: 25px;
+    border-bottom-width: 25px;
+    border-radius: 25px;
+    -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
     .mobile-content{
         height: 100%;
         width: 100%;
@@ -49,33 +58,6 @@
     }
   }
   
-  /* The horizontal line on the top of the device */
-  .product-mobile:before {
-    content: '';
-    display: block;
-    width: 60px;
-    height: 5px;
-    position: absolute;
-    top: -30px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #333;
-    border-radius: 10px;
-  }
-  
-  /* The circle on the bottom of the device */
-  .product-mobile:after {
-    content: '';
-    display: block;
-    width: 35px;
-    height: 35px;
-    position: absolute;
-    left: 50%;
-    bottom: -65px;
-    transform: translate(-50%, -50%);
-    background: #333;
-    border-radius: 50%;
-  }
 
   .product-value{
      display: flex;
@@ -87,11 +69,19 @@
      }
      .value-text{
          width: 65%;
-         p{
-             color: white;
-         }
      }
   }
+
+  .link-btn-wrapper{
+    width: 50%;
+    p{
+        width: 80%;
+        margin: auto;
+        margin-top: 8px;
+        font-weight: 700;
+    }
+
+}
 
   .link-btn{
       background-color: $light-blue;
@@ -101,11 +91,13 @@
       padding: 8px 12px;
       border-radius: 8px;
       font-weight: 700;
-      width: 40%;
+      width: 145px;
+      margin: 20px auto;
       img{
           width: 15%;
       }
       p{
           width: 75%;
+          margin: 0;
       }
   }

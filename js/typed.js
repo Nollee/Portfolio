@@ -47,3 +47,19 @@
       onComplete: function(self) { self.cursor.remove() }
 
     });
+
+    let typed4 = new Typed('#h1-repenso',
+    {
+      strings: ['<h1>Repenso</h1>'],
+      typeSpeed: 100,
+      startDelay: 100,
+      backSpeed: 0,
+      smartBackspace: true,
+      shuffle: false,
+      backDelay: 0,
+      fadeOut: true,
+      loop: false,
+      contentType: 'html',
+      onComplete: function(self) { self.cursor.remove() }
+
+    });
