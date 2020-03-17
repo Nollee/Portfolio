@@ -5,18 +5,18 @@
 }
 
 .right-left{
-    height: 74vh;
+    height: 100%;
     width: 40%;
     display: flex;
-    align-items: center;
+   align-items: flex-end;
 }
 
 .right-right{
     width: 50%;
-    height: 74vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
     h3{
         color: $text-blue;
@@ -24,6 +24,13 @@
     p{
         color: white;
     }
+}
+
+.value-container{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .product-container{
     display: flex;
@@ -38,10 +45,11 @@
 /* The device with borders */
 .product-mobile {
     position: relative;
-    height: 87%;
+    height: 65%;
     border: 4px white solid;
     border-top-width: 25px;
     border-bottom-width: 25px;
+    margin-bottom: 5px;
     border-radius: 25px;
     -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -73,7 +81,7 @@
   }
 
   .link-btn-wrapper{
-    width: 50%;
+    width: 100%;
     p{
         width: 80%;
         margin: auto;
