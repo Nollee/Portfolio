@@ -12,7 +12,7 @@
 
 .right-top{
     height: 35%;
-    margin-top: 25%;
+    margin-top: 10%;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -39,7 +39,7 @@
 }
 
 .right-bot{
-    height: 50vh;
+    height:40%;
     width: 100%;
     position: relative;
     display: flex;
@@ -53,8 +53,8 @@
 /* The laptop with borders */
 .laptop {
     position: relative;
-    width: 80%;
-    height: 38vh;
+    width: 60%;
+    height: 100%;
     border-radius: 6px;
     border-style: solid;
     border-color: white;
@@ -74,7 +74,7 @@
   /* The keyboard of the laptop */
 .keyboard {
     position: absolute;
-    width: 90%;
+    width: 70%;
     margin: auto;
     left: 0;
     right: 0;
