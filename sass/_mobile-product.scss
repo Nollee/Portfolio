@@ -1,8 +1,5 @@
 @import "_rules";
 
-#h1-barhunt, #h1-webspil, #h1-repenso{
-    margin-left: 8%;
-}
 
 .right-left{
     height: 100%;
@@ -27,10 +24,15 @@
 }
 
 .value-container{
-    height: 70%;
+    height: 620px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    .value-text{
+        p{
+            font-size: 13px;
+        }
+    }
 }
 .product-container{
     display: flex;
@@ -45,12 +47,13 @@
 /* The device with borders */
 .product-mobile {
     position: relative;
-    height: 65%;
+    height: 580px;
     border: 4px white solid;
     border-top-width: 25px;
     border-bottom-width: 25px;
     margin-bottom: 5px;
     border-radius: 25px;
+    width: 300px;
     -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -71,7 +74,7 @@
      display: flex;
      justify-content: space-around;
      align-items: center;
-     width: 80%;
+     width: 95%;
      img{
          width: 20%;
      }
@@ -82,11 +85,13 @@
 
   .link-btn-wrapper{
     width: 100%;
+    margin: 20px auto;
     p{
         width: 80%;
         margin: auto;
-        margin-top: 8px;
+        margin-top: 1px;
         font-weight: 700;
+        text-align: center;
     }
 
 }
@@ -100,7 +105,7 @@
       border-radius: 8px;
       font-weight: 700;
       width: 145px;
-      margin: 20px auto;
+      margin: auto;
       img{
           width: 15%;
       }

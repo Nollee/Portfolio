@@ -10,7 +10,13 @@
 @import "_home";
 
 @import "_mobile-product";
+
 @import "_laptop-product";
+
+@import "_skill";
+
+@import "_me";
+
 
 /* ======================== GENERAL ============================== */
 *{
@@ -33,12 +39,16 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    cursor: pointer;
+}
+
 
 
 // ===================== SECTION RULES ======================================
 section{
     margin: auto;
-    max-width: 1100px;
+    max-width: 1300px;
     display: flex;
     height: 100%;
 }
@@ -54,12 +64,16 @@ section{
 
 h1{
     color: white;
-    font-size: 3.2em;
+    font-size: 3em;
 
 }
 
+#h1-repenso, #h1-barhunt, #h1-webdoc, #h1-webspil{
+    margin-left: 18%;
+}
+
 .typed-cursor{
-    font-size: 3.2em;
+    font-size: 3em;
     color: white;
     display: flex;
     text-align: start;
@@ -68,7 +82,6 @@ h1{
 .typed-container{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     margin-top: 15vh;
     margin-bottom: 2vh;
     width: 100%;
@@ -79,13 +92,12 @@ h1{
     padding-left: 5%;
     height: 100%;
     h2{
-        text-align: center;
         color: white;
         font-size: 2em;
     }
 }
 
-.funko-rise, .funko-wave{
+.funko-rise, .funko-wave, .funko-show{
     margin-top: 7vh;
     svg{
         width: 100%;

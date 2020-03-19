@@ -129,18 +129,18 @@
     .dropdown:hover{
         cursor: pointer;
     }
-    ul li{
-        margin: 15px 0;
-        list-style-type: none;
-        a{
-            font-size: 1.2rem;
-
-        }
-    }
     .panel{
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.4s ease-out;
+        ul li{
+            margin: 15px 0;
+            list-style-type: none;
+            a{
+                font-size: 1.2rem;
+    
+            }
+        }
     }
     
 }

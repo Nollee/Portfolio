@@ -63,3 +63,51 @@
       onComplete: function(self) { self.cursor.remove() }
 
     });
+
+    let typed5 = new Typed('#h1-webdoc',
+    {
+      strings: ['<h1>Webdoc</h1>'],
+      typeSpeed: 100,
+      startDelay: 100,
+      backSpeed: 0,
+      smartBackspace: true,
+      shuffle: false,
+      backDelay: 0,
+      fadeOut: true,
+      loop: false,
+      contentType: 'html',
+      onComplete: function(self) { self.cursor.remove() }
+
+    });
+
+    let typed6 = new Typed('#h1-skills',
+    {
+      strings: ['<h1>Færdigheder</h1>'],
+      typeSpeed: 100,
+      startDelay: 100,
+      backSpeed: 0,
+      smartBackspace: true,
+      shuffle: false,
+      backDelay: 0,
+      fadeOut: true,
+      loop: false,
+      contentType: 'html',
+      onComplete: function(self) { self.cursor.remove() }
+
+    });
+
+    let typed7 = new Typed('#h1-me',
+    {
+      strings: ['<h1>Om Mig</h1>'],
+      typeSpeed: 100,
+      startDelay: 100,
+      backSpeed: 0,
+      smartBackspace: true,
+      shuffle: false,
+      backDelay: 0,
+      fadeOut: true,
+      loop: false,
+      contentType: 'html',
+      onComplete: function(self) { self.cursor.remove() }
+
+    });

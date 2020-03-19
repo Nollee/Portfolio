@@ -45,3 +45,21 @@ function showLoader(show) {
     loader.classList.add("hide");
   }
 }
+
+
+function reload(){
+  let link = document.querySelectorAll("a");
+  for (let a of link) {
+    a.classList.remove("pop")     
+    }
+    let divs = document.querySelectorAll("div");
+    for (let div of divs) {
+      div.classList.remove("pop");
+      div.classList.remove("slide");
+          
+      }
+
+      document.querySelector(".dropdown").classList.remove("active");
+      let panel = document.querySelector(".panel");
+      panel.style.maxHeight = null;
+}
