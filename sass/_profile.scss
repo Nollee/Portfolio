@@ -112,17 +112,19 @@ z-index: 102;
     background-color: $text-blue;
     opacity: 70%;
     z-index: 50;
+    -webkit-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
     transition: 0.3s ease-in;
     margin-left: 15%;
-    
 
 }
 
 .info-circle.pop{
     width: 130px;
     height: 130px;
+    -webkit-transition: 0.4s ease-in;
+    -o-transition: 0.4s ease-in;
     transition: 0.4s ease-in;
-
 
 }
 
@@ -146,41 +148,57 @@ z-index: 102;
 }
 
 .fb.pop{
-    transform: translate(65px, -75px);
+    -webkit-transform: translate(65px, -75px);
+        -ms-transform: translate(65px, -75px);
+        transform: translate(65px, -75px);
         transition: 0.4s ease-in;
         -webkit-transition: 0.4s ease-in;
         -moz-transition: 0.4s ease-in;
         -o-transition: 0.4s ease-in;
-        transition-delay: 0.3s;
+        -webkit-transition-delay: 0.3s;
+        -o-transition-delay: 0.3s;
+                transition-delay: 0.3s;
     
     }
 
 .li.pop{
+    -webkit-transform: translate(105px, -32.5px);
+    -ms-transform: translate(105px, -32.5px);
     transform: translate(105px, -32.5px);
     transition: 0.4s ease-in;
     -webkit-transition: 0.4s ease-in;
     -moz-transition: 0.4s ease-in;
     -o-transition: 0.4s ease-in;
-    transition-delay: 0.4s;
+    -webkit-transition-delay: 0.4s;
+    -o-transition-delay: 0.4s;
+            transition-delay: 0.4s;
     
         }
 
 .git.pop{
+
+    -webkit-transform: translate(105px, 32.5px);
+    -ms-transform: translate(105px, 32.5px);
     transform: translate(105px, 32.5px);
     transition: 0.4s ease-in;
     -webkit-transition: 0.4s ease-in;
     -moz-transition: 0.4s ease-in;
     -o-transition: 0.4s ease-in;
-    transition-delay: 0.5s;
+    -webkit-transition-delay: 0.5s;
+    -o-transition-delay: 0.5s;
+            transition-delay: 0.5s;
     
         }
 
 .box.pop{
-transform: translate(65px, 75px);
+    -webkit-transform: translate(65px, 75px);
+    -ms-transform: translate(65px, 75px);
+    transform: translate(65px, 75px);
     transition: 0.4s ease-in;
     -webkit-transition: 0.4s ease-in;
     -moz-transition: 0.4s ease-in;
     -o-transition: 0.4s ease-in;
-    transition-delay: 0.6s;
-
+    -webkit-transition-delay: 0.6s;
+    -o-transition-delay: 0.6s;
+            transition-delay: 0.6s;
 }

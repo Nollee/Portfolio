@@ -114,3 +114,41 @@
           margin: 0;
       }
   }
+
+  @media only screen and (max-width: 500px) {
+
+    .right-left{
+        display: none;
+    }
+
+    .right-right{
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+
+    .product-container{
+        height: auto;
+    }
+
+    .value-container{
+        flex-direction: column-reverse;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .product-value{
+        flex-direction: column;
+        margin-top: 30px;
+        img{
+            width: 40%;
+        }
+        .value-text{
+            width: 100%;
+        }
+        h3{
+            text-align: center;
+            margin: 15px 0;
+        }
+    }
+  }

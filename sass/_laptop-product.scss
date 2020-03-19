@@ -111,6 +111,28 @@
 
 }
 
+@media only screen and (max-width: 500px) {
+    .right-bot{
+        display: none;
+    }
+
+    .right-top{
+        flex-direction: column-reverse;
+        .laptop-value{
+            width: 90%;
+            margin: auto;
+            margin-bottom: 30px;
+        }
+    }
+
+    .laptop-product-container{
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 20px;
+    }
+}
+
 
 
   

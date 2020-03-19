@@ -5,7 +5,9 @@
     right: 3%;
     top: 4vh;
     z-index: 50;
-    transition: .4s ease;
+    -webkit-transition: .4s ease;    
+    -o-transition: .4s ease;    
+    transition: .4s ease;    
     height: 50px;
     width: 45px;
     z-index:131;
@@ -17,47 +19,67 @@
         margin: 8px 0;
     }
     .line2{
-        transform: translateX(5px);
-        transition: .4s ease;
-
+        -webkit-transform: translateX(5px);        
+        -ms-transform: translateX(5px);        
+        transform: translateX(5px);        
+        -webkit-transition: .4s ease;    
+        -o-transition: .4s ease;    
+        transition: .4s ease;    
     }
+}
+
+.mobile-links{
+    display: none;
 }
 
 .burger:hover{
     cursor: pointer;
-    transition: .4s ease;
-
+    -webkit-transition: .4s ease;    
+    -o-transition: .4s ease;    
+    transition: .4s ease;    
     div{
         background-color: $text-blue;
     }
     .line2{
-        transform: translateX(0px);
-        transition: .4s ease;
-    }
+        -webkit-transform: translateX(0px);        
+        -ms-transform: translateX(0px);        
+        transform: translateX(0px);        
+        -webkit-transition: .4s ease;    
+        -o-transition: .4s ease;    
+        transition: .4s ease;        }
     .line1, .line3{
-        transition: .4s ease;
-
+        -webkit-transition: .4s ease;    
+        -o-transition: .4s ease;    
+        transition: .4s ease;    
     }
     
 }
 
 .line2.slide{
-    transition: .4s ease;
+    -webkit-transition: .4s ease;    
+    -o-transition: .4s ease;    
+    transition: .4s ease;        
     opacity: 0;
 }
 
 .line1.slide{
-    transition: .4s ease;
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
+    -webkit-transition: .4s ease;    
+    -o-transition: .4s ease;    
+    transition: .4s ease;  
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);    
+    -ms-transform: rotate(-45deg) translate(-9px, 6px);    
+    transform: rotate(-45deg) translate(-9px, 6px);    
     background-color: $text-blue;
     
 }
 
 .line3.slide{
-    transition: .4s ease;
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-12px, -9px);
+    -webkit-transition: .4s ease;    
+    -o-transition: .4s ease;    
+    transition: .4s ease;  
+    -webkit-transform: rotate(45deg) translate(-12px, -9px);    
+    -ms-transform: rotate(45deg) translate(-12px, -9px);    
+    transform: rotate(45deg) translate(-12px, -9px);    
     background-color: $text-blue;
 
 }
@@ -69,7 +91,9 @@
     z-index: 120;
     background-color: black;
     opacity: 0.6;
-    transition: .4s ease;
+    -webkit-transition: .4s ease;    
+    -o-transition: .4s ease;    
+    transition: .4s ease;  
     transition-delay: .8s;
 }
 
@@ -85,7 +109,9 @@
     background-color: $darkest-blue;
     right: 0;
     clip-path: polygon(100% 0, 100% 0%, 100% 100%, 100% 100%);
-    transition: .4s ease;
+    -webkit-transition: .4s ease;    
+    -o-transition: .4s ease;    
+    transition: .4s ease;  
     z-index: 130;
 }
 
@@ -120,7 +146,9 @@
         img{
             width: 10%;
             margin-left: 4%;
-            transition: max-height 0.4s ease-in;
+            -webkit-transition: max-height 0.4s ease-in;            
+            -o-transition: max-height 0.4s ease-in;            
+            transition: max-height 0.4s ease-in;            
             max-width: 22px;
 
         }
@@ -132,7 +160,9 @@
     .panel{
         max-height: 0;
         overflow: hidden;
-        transition: max-height 0.4s ease-out;
+        -webkit-transition: max-height 0.4s ease-in;            
+        -o-transition: max-height 0.4s ease-in;            
+        transition: max-height 0.4s ease-in;           
         ul li{
             margin: 15px 0;
             list-style-type: none;
@@ -146,9 +176,12 @@
 }
 
 .dropdown.active img{
-    transform: rotate(180deg);
-    transition: max-height 0.4s ease-in;
-
+    -webkit-transform: rotate(180deg);    
+    -ms-transform: rotate(180deg);    
+    transform: rotate(180deg);    
+    -webkit-transition: max-height 0.4s ease-in;            
+    -o-transition: max-height 0.4s ease-in;            
+    transition: max-height 0.4s ease-in;  
 }
 
 // ================================== HAMBURGER ======================================
@@ -188,5 +221,24 @@
 
     .burger-menu{
         width: 100%;
+        position: fixed;
+    }
+    .burger{
+        position: fixed;
+    }
+
+    .mobile-links{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20%;
+        a{
+            width: 20%;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            img{
+                width: 100%;
+            }
+        }
     }
 }

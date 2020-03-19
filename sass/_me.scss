@@ -68,21 +68,31 @@ img{
 .adjectives p:nth-child(1){
     bottom: 10%;
     left: 20%;
+    -webkit-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
     transform: rotate(15deg);
-    animation-name: fade;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-
+    -webkit-animation-name: fade;
+            animation-name: fade;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinit
 }
 
 .adjectives p:nth-child(2){
     right: 10%;
     top: 13%;
+    -webkit-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
     transform: rotate(-20deg);
-    animation-delay: 0.5s;
-    animation-name: fade;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+    -webkit-animation-name: fade;
+            animation-name: fade;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
 }
 
 .adjectives p:nth-child(3){
@@ -98,71 +108,113 @@ img{
 .adjectives p:nth-child(4){
     right: 20%;
     bottom: 12%;
-    transform: rotate(-10deg);
-    animation-delay: 1.5s;
-    animation-name: fade;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+    -webkit-transform: rotate(13deg);
+    -ms-transform: rotate(13deg);
+    transform: rotate(13deg);
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    -webkit-animation-name: fade;
+            animation-name: fade;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
 }
 
 .adjectives p:nth-child(5){
     left: 5%;
     top: 26%;
+    -webkit-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
     transform: rotate(25deg);
-    animation-delay: 2s;
-    animation-name: fade;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+    -webkit-animation-name: fade;
+            animation-name: fade;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
 }
 
 .adjectives p:nth-child(6){
     left: 35%;
     top: 12%;
+    -webkit-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
     transform: rotate(-25deg);
-    animation-delay: 2.5s;
-    animation-name: fade;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+    -webkit-animation-delay: 2.5s;
+            animation-delay: 2.5s;
+    -webkit-animation-name: fade;
+            animation-name: fade;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
 }
 
 .adjectives p:nth-child(7){
     left: 30%;
     top: 36%;
+    -webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
     transform: rotate(-5deg);
-    animation-delay: 3s;
-    animation-name: fade;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+    -webkit-animation-name: fade;
+            animation-name: fade;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
 }
 
 .adjectives p:nth-child(8){
     right: 28%;
     top: 12%;
+    -webkit-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
     transform: rotate(-8deg);
-    animation-delay: 3.5s;
-    animation-name: fade;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+    -webkit-animation-delay: 3.5s;
+            animation-delay: 3.5s;
+    -webkit-animation-name: fade;
+            animation-name: fade;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
 }
 
 .adjectives p:nth-child(9){
     right: 6%;
     bottom: 16%;
+    -webkit-transform: rotate(19deg);
+    -ms-transform: rotate(19deg);
     transform: rotate(19deg);
-    animation-delay: 4s;
-    animation-name: fade;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+    -webkit-animation-delay: 4s;
+            animation-delay: 4s;
+    -webkit-animation-name: fade;
+            animation-name: fade;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
 }
 
 .adjectives p:nth-child(10){
     left: 28%;
     top: 55%;
+    -webkit-transform: rotate(13deg);
+    -ms-transform: rotate(13deg);
     transform: rotate(13deg);
-    animation-delay: 4.5s;
-    animation-name: fade;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+    -webkit-animation-delay: 4.5s;
+            animation-delay: 4.5s;
+    -webkit-animation-name: fade;
+            animation-name: fade;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
 }
 
 .adjectives p:nth-child(11){
@@ -178,21 +230,33 @@ img{
 .adjectives p:nth-child(12){
     left: 4%;
     bottom: 8%;
-    transform: rotate(-12deg);
-    animation-delay: 5.5s;
-    animation-name: fade;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+    -webkit-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+    -webkit-animation-delay: 5s;
+            animation-delay: 5s;
+    -webkit-animation-name: fade;
+            animation-name: fade;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
 }
 
 .adjectives p:nth-child(13){
     right: 28%;
     bottom: 45%;
+    -webkit-transform: rotate(-12deg);
+    -ms-transform: rotate(-12deg);
     transform: rotate(-12deg);
-    animation-delay: 6s;
-    animation-name: fade;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+    -webkit-animation-delay: 6s;
+            animation-delay: 6s;
+    -webkit-animation-name: fade;
+            animation-name: fade;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
 }
 
 @keyframes fade{
@@ -201,5 +265,21 @@ img{
     }
     100%{
         opacity: 0;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .adjectives{
+        display: none;
+    }
+
+    #me{
+        flex-direction: column;
+    }
+
+    .me-left, .me-middle, .me-right{
+        width: 85%;
+        margin: auto;
     }
 }
