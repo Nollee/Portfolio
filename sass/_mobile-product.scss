@@ -129,13 +129,16 @@
 
     .product-container{
         height: auto;
+        flex-direction: column;
     }
 
     .value-container{
-        flex-direction: column-reverse;
+        flex-direction: column-reverse !important;
         height: auto;
+        margin-top: 30px !important;
         margin-bottom: 30px;
     }
+
 
     .product-value{
         flex-direction: column;

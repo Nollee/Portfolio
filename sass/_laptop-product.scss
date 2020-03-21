@@ -108,6 +108,29 @@
     .right-top{
         margin-top: 25%;
     }
+    
+
+}
+
+@media only screen and (min-height: 1000px) {
+    .right-top{
+        margin-top: 35%;
+        .laptop-value{
+            margin-top: 15px;
+            
+        }
+    }
+
+}
+
+@media only screen and (min-height: 1300px) {
+    .right-top{
+        margin-top: 65%;
+        .laptop-value{
+            margin-top: 15px;
+            
+        }
+    }
 
 }
 

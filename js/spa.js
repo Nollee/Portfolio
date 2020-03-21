@@ -62,4 +62,7 @@ function reload(){
       document.querySelector(".dropdown").classList.remove("active");
       let panel = document.querySelector(".panel");
       panel.style.maxHeight = null;
+
+
+      
 }
