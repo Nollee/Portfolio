@@ -108,7 +108,8 @@
     position: absolute;
     background-color: $darkest-blue;
     right: 0;
-    clip-path: polygon(100% 0, 100% 0%, 100% 100%, 100% 100%);
+    -webkit-clip-path: polygon(100% 0, 100% 0%, 100% 100%, 100% 100%);
+            clip-path: polygon(100% 0, 100% 0%, 100% 100%, 100% 100%);
     -webkit-transition: .4s ease;    
     -o-transition: .4s ease;    
     transition: .4s ease;  
@@ -193,12 +194,14 @@
 // ============================== KEYFRAMES ==========================================
 @keyframes slideIn {
     50%{
-        clip-path: polygon(100% 0, 100% 0%, 100% 100%, 50% 100%);
+        -webkit-clip-path: polygon(100% 0, 100% 0%, 100% 100%, 50% 100%);
+                clip-path: polygon(100% 0, 100% 0%, 100% 100%, 50% 100%);
 
     }
 
     100%{
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%);
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%);
 
     }
 }
