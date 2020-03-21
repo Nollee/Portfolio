@@ -114,9 +114,11 @@
     -o-transition: .4s ease;    
     transition: .4s ease;  
     z-index: 130;
+    display: none;
 }
 
 .burger-menu.slide{
+    display: block;
     animation: slideIn;
     animation-duration: 0.8s;
     animation-fill-mode: forwards; 
