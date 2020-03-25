@@ -64,37 +64,29 @@ margin-left: 45%;
 border-radius: 50%;
 position: relative;
 z-index: 102;
+-webkit-transition: 0.3s ease-in;
+-o-transition: 0.3s ease-in;
+transition: 0.3s ease-in;
+
+img{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    @extend %center;
+}
+}
+
+.profile-btn.pop{
+    transform: rotate(360deg);
+    -webkit-transition: 0.6s ease-in;
+    -o-transition: 0.6s ease-in;
+    transition: 0.6s ease-in;
 }
 
 .profile-btn:hover{
     cursor: pointer;
 }
 
-.plus-1, .plus-2{
-    background-color: #3B7DAA;
-    width: 66%;
-    height: 6px;
-    position: absolute;
-    @extend %center;    
-    border-radius: 5px;
-}
-
-.plus-1{
-    transform: rotate(90deg);
-    transition: 0.3s ease-in;
-    -webkit-transition: 0.3s ease-in;
-    -moz-transition: 0.3s ease-in;
-    -o-transition: 0.3s ease-in;
-
-}
-
-.plus-1.pop{
-    transform: rotate(0deg);
-    transition: 0.3s ease-in;
-    -webkit-transition: 0.3s ease-in;
-    -moz-transition: 0.3s ease-in;
-    -o-transition: 0.3s ease-in;
-}
 
 .profile-info{
     width: 55%;

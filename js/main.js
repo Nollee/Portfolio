@@ -2,7 +2,7 @@
 
 // ======================= Profile ===============================/
 function addPop(){
-    document.querySelector(".profile-btn div").classList.toggle("pop")
+    document.querySelector(".profile-btn").classList.toggle("pop")
     document.querySelector(".profile-info div").classList.toggle("pop")
     let elements = document.querySelectorAll('.info-icon')
     for (let element of elements) {

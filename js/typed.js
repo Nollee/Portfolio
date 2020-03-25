@@ -18,7 +18,7 @@
     
     let typed2 = new Typed('#h1-barhunt',
     {
-      strings: ['<h1>Barhunt</h1>'],
+      strings: ['<h1>Webapp</h1>'],
       typeSpeed: 100,
       startDelay: 100,
       backSpeed: 0,
