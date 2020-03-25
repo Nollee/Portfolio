@@ -85,7 +85,8 @@
 
   .link-btn-wrapper{
     width: 100%;
-    margin: 20px auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
     p{
         width: 80%;
         margin: auto;
@@ -106,6 +107,9 @@
       font-weight: 700;
       width: 145px;
       margin: auto;
+      -webkit-transition: 0.3s ease-in;
+      -o-transition: 0.3s ease-in;
+      transition: 0.3s ease-in;
       img{
           width: 15%;
       }
@@ -113,6 +117,15 @@
           width: 75%;
           margin: 0;
       }
+  }
+
+  .link-btn:hover{
+    -webkit-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    transform: scale(1.08);
+    -webkit-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
   }
 
   @media only screen and (max-width: 500px) {

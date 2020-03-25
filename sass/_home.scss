@@ -15,7 +15,7 @@ h2{
     flex-wrap: wrap;
     justify-content: space-around;
     height: 60%;
-    margin-top: 8%;
+    padding-top: 8%;
     
 }
 
@@ -25,6 +25,9 @@ h2{
     width: 40%;
     height: 180px;
     border-radius: 15px;
+    -webkit-transition: 0.3s ease-in;
+-o-transition: 0.3s ease-in;
+transition: 0.3s ease-in;
     img{
         height: 100%;
         width: 100%;
@@ -60,6 +63,12 @@ h2{
 .project:hover{
     cursor: pointer;
     border-color: $text-blue;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);    
+    -webkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
     .gradient{
         background-color: rgba(9, 12, 17, 0.9);
         -webkit-transition: 0.3s ease;
